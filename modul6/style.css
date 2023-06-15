@@ -1,0 +1,149 @@
+* {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+  }
+  
+  #page {
+    border: 1px solid transparent;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+  }
+  
+  header {
+    background-color: darkseagreen;
+    width: 1000px;
+    height: 50px;
+  }
+
+  header p {
+    font-size: 35px;
+    width: 15%;
+  }
+  
+  nav {
+    height: 50px;
+    display: flexbox;
+    width: 85%;
+    margin-top: 10px;
+
+  }
+  
+  nav ul {
+    display: flexbox;
+    margin-left: 50px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+
+  ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .active {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    outline-style: auto;    
+    outline-width: 1px;
+    outline-color: slategray;
+  }
+
+  ul li a:hover {
+    outline-style: auto;    
+    outline-width: 1px;
+    outline-color: slategray;
+    list-style: none;
+    text-decoration: none;
+    color: slategray;
+    margin: 5px;
+    padding: 5px;
+    transition: 0.2s;
+  }
+
+  .judul {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+  
+  .judul p {
+    color: darkseagreen;
+    font-size: 20px;
+    margin-top: -5px;
+  }
+
+  ul.nav{
+    margin-top: 100px;
+  }
+
+  ul li a.menu{
+    text-decoration: none;
+    list-style: none;
+    color: slategray;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .menuactive {
+    list-style: none;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    color: slategray;
+    outline: auto;
+    border-radius: 15px;  
+    outline-width: 1px;
+    outline-color: slategray;
+    outline-offset: 7px;
+  }
+
+  ul li a.menu:hover {
+    list-style: none;
+    text-decoration: none;
+    color: slategray;
+    margin: 5px;
+    padding: 5px;
+    transition: 0.2s;
+    border-radius: 15px;  
+    outline-offset: 7px;
+    outline: auto;
+    outline-width: 1px;
+    outline-color: slategray;
+  }
+  .img {
+    margin-top: 17px;
+  }
+
+  .icons i {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: darkseagreen;
+    }
+
+  .bottom{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .bottom p {
+    color: darkseagreen;
+  }
